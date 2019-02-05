@@ -7,7 +7,7 @@ $conection = Connect-VIServer -Server $vcenter -Protocol https
 
 #Return  Name,Version,OS,IP-Address,Folder of all the servers in Vcenter
 
-$path = "~\Desktop\servidores.txt"
+$path = "~\Desktop\servers.txt"
 $servers = Get-VM
 Remove-Item $path -ErrorAction SilentlyContinue
 foreach($server in $servers){
