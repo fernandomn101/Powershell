@@ -1,0 +1,19 @@
+In this folder you can find all the neccesary flis for install the managements modules,
+needed for install and find modules in Microsoft repos
+
+En esta carpeta estan todos los modulos de administracion necesarios necesarios 
+para poder instalar y buscar modulos en los repositorios de Microsoft
+
+1- You must run $env:PSModulePath for get the path where the PS modules are installed,
+normally C:\Windows\System32\WindowsPowerShell\v1.0\Modules
+   Debes lanzar $env:PSModulePath para obtener la ruta donde se instalan los modulos de PS,
+normalmente C:\Windows\System32\WindowsPowerShell\v1.0\Modules
+
+2- Go to the path and copy both folders included in the rar file on it
+   Ve a la ruta y copia las carpetas del archivo rar en la ruta
+
+3- Close and open powershell, if you have any instance of it open
+   Cerrar y abrir powershell para cargar los cambios
+
+Check that you have now Cmdlets like "Find-Module" or "Install-Module" in your powershell
+Comprobar que tienes Cmdlets como "Find-Module" or "Install-Module" en powershell 
