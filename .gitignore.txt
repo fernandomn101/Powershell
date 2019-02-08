@@ -1,1 +1,2 @@
-PS Windows7
+testignore.txt
+Exchange\testignore2.txt
