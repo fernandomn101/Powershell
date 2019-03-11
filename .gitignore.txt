@@ -1,2 +1,0 @@
-testignore.txt
-Exchange\testignore2.txt
