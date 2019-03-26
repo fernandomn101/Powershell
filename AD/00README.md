@@ -3,6 +3,9 @@
 Carpeta con ejemplos de scripts para Active Directory
 Folder with examples for Active Directory
 
+ChangeAdPassword -> Cambia la contraseña de usuarios de Ad
+                    Change AD users passwords
+
 ChangeNotesInGroups ->  Cambia el campo notas en los grupos que respeten el filtro
                         Change the notes field in all the gruops which passed the filter
 
