@@ -1,2 +1,4 @@
 # Powershell
-Tercera prueba de repositorio
+Repositorio de scripts de Powershell, usando tecnologias de Windows.
+Repository of Powershell scripts, using Windows technologies
+
