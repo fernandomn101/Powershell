@@ -11,9 +11,11 @@ CalendarPermissions -> Add calendar permission for a user in a list of resources
 
 ChangeADManagers    -> Change the managers of a users list, given a manager for each user
                        Cambia los manager de una lista de usuarios, dando manager para   cada usuario
-
+                     
 GetGroupsFromUser   -> Get all groups in which a user have permisions
                        Obtiene todos los grupos en los que un usuario tiene permisos
+
+GetAdminUsers ->    Get a list of the domain admins and if are enabled or not, and report                     it by mail
 
 SendMailMessage     -> Script for send mails automatically
                        Script para mandar mensajes de manera automatica
