@@ -17,4 +17,6 @@ GetLocalProfiles -> Obtiene el nombre de los perfiles locales
 
 ListEnabledUsers -> Obtiene todos los usuarios habilitados una ruta en el AD
                     List all enabled users from a specified path in Ad
-                  
+
+RunRemotely ->  Lanza scriptblocks a servidores de manera remota
+                Run scripts in remote servers
