@@ -15,6 +15,9 @@ GetServersStatusPoolCluster -> Get Status,Pool,Cluster from a list of servers gi
 ObtenerVMbyIp -> Get the servers by IP Address
                  Obtener los servidores por Direccion IP
 
+Test PsSnapin ->    Simple example with PsSnapin connection
+                    Conexion simple con PsSnapin añadido
+
 UpdateVmwareTools -> Get all the servers that doesn't have the last version of VmWare 
                      tools, and update it
                      Obtiene todos los servidores con las vmware tools desactualizadas, y 
