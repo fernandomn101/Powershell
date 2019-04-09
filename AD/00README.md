@@ -10,11 +10,14 @@ ChangeNotesInGroups ->  Cambia el campo notas en los grupos que respeten el filt
                         Change the notes field in all the gruops which passed the filter
 
 Editbymail          -> This script shows how to modify entries in AD by email address
-                       Este script muestra como modificar entradas en el ad mediante email 
+                       Este script muestra como modificar entradas en el ad mediante 
+                       email 
 
-GetAdminUsers ->    Get a list of the domain admins and if are enabled or not, and report                     it by mail
+GetAdminUsers ->    Get a list of the domain admins and if are enabled or not, and report 
+                    it by mail
 
-GetAllObjectsFromADPath ->  Obtiene todos los objetos del AD dentro de la carpeta de AD                               indicada
+GetAllObjectsFromADPath ->  Obtiene todos los objetos del AD dentro de la carpeta de AD   
+                            indicada
                             Get all the objects within the AD path indicated
 
 GetFoldersAD -> Obtiene todas las carpetas dentro de una ruta del AD
@@ -22,7 +25,12 @@ GetFoldersAD -> Obtiene todas las carpetas dentro de una ruta del AD
 
 GetUOsFromUser ->   Obtiene las OUs de las que un usuario dado es miembro
                     Get the OUs from where an user given is member
-
+                    
+GetUsersAndManager -> Obtiene los nombre,logonname,title y nombre del manager de todos   
+                      los usuarios que pertenecen a un grupo
+                      Get name,logonname,title and manager's name of each user within a 
+                      group
+                      
 GetUsersFromRemoteDomain -> Obtiene todos los usuarios de un grupo de un dominio remoto
                             Get all user from a specified group in a remote domain
 
@@ -41,16 +49,17 @@ MembersCleaner -> Elimina a todos los usuarios de una ruta de AD de todos los gr
 RemoveGroupMemebers ->  Elimina los usuarios dados de un grupo
                         Remove the users given from a group
                         
-UpdateADExpirationDate ->   Actuliza la fechade expiracion de cuentas de AD de un conjunto
-                            de usuarios
+UpdateADExpirationDate ->   Actuliza la fechade expiracion de cuentas de AD de un 
+                            conjunto de usuarios
                             Update the AD account expiration date from a list of users
                             given 
                             
                   
-UsersEnabled ->     Dado un listado de usuarios desde un csv, los busca en el Ad. Eporta 2
-                    csv; Uno: Indica Nombre,Logonname,Enabled. Otro: Usuarios no encontrados.
-                    Given a list of user, search them in AD.Export 2 csv; One: Filled with
-                    Name,Logonname,Enabled. Other: Users not founded.
+UsersEnabled ->     Dado un listado de usuarios desde un csv, los busca en el Ad.Exporta 
+                    2 csv; Uno: Indica Nombre,Logonname,Enabled. Otro: Usuarios no 
+                    encontrados.
+                    Given a list of user, search them in AD.Export 2 csv; One: Filled 
+                    with Name,Logonname,Enabled. Other: Users not founded.
 
 UsersFrom1Manager ->    Devuelve todos los usuarios que tienen como manager el usuario
                         dado.
